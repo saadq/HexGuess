@@ -24,7 +24,7 @@
   var game = {};
 
   // The current level the player is on, starting at 1
-  game.level = 5;
+  game.level = 1;
 
   // The amount of lives the player has left, starting at 5
   game.lives = 5;
