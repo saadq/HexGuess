@@ -157,7 +157,7 @@
       view.result.textContent = 'Game Over!';
       game.over();
     } else {
-      view.result.textContent = 'Wrong choice! That color was ' + clickedSquare.id;
+      view.result.textContent = 'Wrong choice! That color was ' + clickedSquare.id.toUpperCase();
     }
   };
 
