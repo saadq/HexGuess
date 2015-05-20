@@ -96,6 +96,7 @@
     } else {
       game.loseLife(clickedSquare);
       clickedSquare.style.opacity = '0';
+      clickedSquare.removeEventListener('click', game.squareClickHandler);
       view.update();
     }
   };
