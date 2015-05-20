@@ -1,0 +1,140 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #E9E5FF;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+
+header {
+  margin-top: 5%;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  word-spacing: 0px;
+  zoom: 1;
+}
+
+header p {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2.25rem;
+}
+
+p {
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+p#result {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+ul {
+  padding: 0 20px;
+  list-style: none;
+  text-align:center;
+}
+
+.square {
+  border-radius: 3px;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 4px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: all .15s;
+}
+
+.square:hover {
+  border: 3px solid #444;
+}
+
+.wrapper {
+  margin: 5%;
+}
+
+@media (min-width: 650px) {
+  .wrapper {
+    margin: 4% 20%;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+#gameOver {
+  font-size: 5rem;
+}
+
+#replayButton {
+  display: block;
+  margin: auto;
+  background: none;
+  border: 3px solid #735AFF;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  transition: background .35s ease-in-out;
+}
+
+#replayButton:hover {
+  background-color: #735AFF;
+  cursor: pointer;
+}
+
+#replayButton:focus {
+  outline: none;
+}
+
+@media (min-width: 650px) {
+  footer {
+    position: absolute;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+    bottom: 0;
+  }
+}
+
+#source {
+  font-size: .75rem;
+  color: #000;
+  opacity: .6;
+  padding-bottom: 10px;
+}
+
+#source a {
+  color: #000;
+  opacity: .6;
+}
+
+#source a:hover {
+  opacity: 1;
+}
