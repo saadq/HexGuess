@@ -108,6 +108,7 @@
     for (var i = 0; i < squares.length; i++) {
       squares[i].addEventListener('click', game.squareClickHandler);
     }
+    game.tries = 0;
   };
 
   /**
@@ -185,7 +186,6 @@
    * adding in the new squares, and updating the View
    */
   function render(game) {
-    game.tries = 0;
     game.clearSquares();
     game.createSquares();
     game.updateSquareClickHandlers();
